@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body html {
+    width: 100%;
+    height: 100%;
+    color: darkgray;
+    font-family: 'Noto Sans',sans-serif;
+}
+
+hr {
+    border: 1px solid darkgray;
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.navbar-nav li {
+    padding-right: 15px;
+}
+
+.alert {
+    padding: 2.5em;
+}
+
+.nav-link {
+    font-size: 1.2em !important;
+}
+
+.carousel-inner  {
+    height: 550px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    background-color: darkgray;
+}
+.carousel-caption {
+    text-shadow: 1px 1px 10px black;
+    top: 25%;
+    position: absolute;
+}
+
+.mainBlock {
+    padding-left: 0.5em;
+}
+
+.fa-address-card, .fa-accessible-icon {
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.fa-accessible-icon {color: tomato}
+.fa-address-card {color: darkslategrey}
+
+.card img {
+    width: 247px;
+    height: 242px;
+    margin: auto;
+}
+
+#fixed {
+    margin-top: 1.5em;
+    height: 500px;
+    width: 100%;
+    background: url("../image/carousel_1.jpg") no-repeat center fixed;
+    background-blend-mode: multiply;
+    background-color: darkgray;
+    background-size: cover;
+}
+#dosug {
+    margin-top: 1.5em;
+    height: 620px;
+    width: 100%;
+    background: url("../image/background.jpg") no-repeat center fixed;
+    background-blend-mode: multiply;
+    background-color: darkgray;
+    background-size: cover;
+    color: white;
+}
+
+.fa-bold, .fa-html5, .fa-code {
+    font-size: 4em;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+}
+
+.fa-bold {color: blueviolet}
+.fa-html5 {color: darkblue}
+.fa-code {color: chocolate}

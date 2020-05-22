@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hey</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet icon" href="image/icon.png">
+</head>
+<body>
+<!--Шапка сайта-->
+<nav class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg dg-darck">
+            <a class="navbar-brand" href="#"> <img src="image/icon.png" width="50px" height="50px">Hey</a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#start">С чего началось</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rabota">Работы</a>
+                    </li>
+                   <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#" id="navbarDropdownMenuLink"
+                           role="button" data-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            Упс...
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Упс..</a>
+                            <a class="dropdown-item" href="#">Упс..</a>
+                            <a class="dropdown-item" href="#">Упс..</a>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </nav>
+    </div>
+</nav>
+<!--Слайдеры-->
+<div class="contaienr">
+<div class="carousel slide" data-ride="carousel" id="slides">
+    <ol class="carousel-indicators ">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image/slide_3.jpg"/>
+            <div class="carousel-caption g123">
+                <h1 class="display-2"> Счастье не за горами </h1>
+                <hr>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/slide_1.jpg"/>
+            <div class="carousel-caption g123">
+                <h1 class="display-2"> Счастье не за горами </h1>
+                <hr>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/slide_2.jpg"/>
+            <div class="carousel-caption g123">
+                <h1 class="display-2"> Счастье не за горами </h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--Основной блок #1-->
+<div class="container-fluid mt-md-3 mb-mt-3">
+    <div class="row mt-md-5 md-md-5">
+        <div class="col-sx-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 d-flex p-2 bd-highlight">
+            <h1 class="display-2 mainBlock d-flex align-items-center">Посмотри красивую картинку</h1>
+        </div>
+        <div class="col-sx-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 d-flex align-items-center">
+            <button type="button" class="btn btn-lg btn-outline-success" data-toggle="collapse" data-target="#backround">
+                Смотреть
+            </button>
+        </div>
+    </div>
+
+</div>
+<!--id background-->
+<div class="collapse" id="backround">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="container-fluid">
+                <div class="fixed-wrap">
+                    <div id="fixed">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!--Основной блок #2-->
+<div class="container-fluid mt-md-5 " style="height: 450px" id="start">
+    <div class="row text-center alert">
+        <div class="col-12">
+            <h1 class="display-4 text-center">Началось все с него</h1>
+        </div>
+        <div class="d-flex bd-highlight">
+            <div class="p-2 flex-shrink-1 bd-highlight">
+                <img src="https://static.tildacdn.com/tild6339-6266-4562-a431-666266356432/cor.svg" class="rounded mr-md-5 ml-mt-5" alt="Фото" width="250px" height="250px">
+            </div>
+            <div class="alert w-100">
+                <p class="lead text-justify">
+                    Вирус, вызывающий заболевание COVID-19, ‎передается преимущественно через капли, ‎выделяющиеся из
+                    дыхательных путей ‎инфицированного человека при кашле, ‎чихании или дыхании.
+                    Ввиду своей массы эти ‎капли не задерживаются надолго в воздухе и ‎быстро оседают на пол и другие поверхности.
+                    <br>
+                    <small class="text-danger"> P.s Данный текст не несет смысла.</small>‎
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+<hr>
+<!--Работы-->
+<div class="container-fluid" id="rabota">
+    <div class="text-center">
+    <p class="display-3">Работы</p>
+</div>
+    <div class="row card-deck">
+        <div class="card">
+            <i class="card-img-top fab fa-accessible-icon"></i>
+            <div class="card-body">
+                <h5 class="card-title">Первая работа</h5>
+                <p class="card-text">Долго, но интересно, жми, смотри, участвуй.</p>
+                <button type="button" class="btn btn-outline-danger" data-toggle="collapse" data-target="#dosug">
+                    Смотреть
+                </button>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Создан 10.05.2020</small>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-address-card"></i>
+            <div class="card-body">
+                <h5 class="card-title">Вроде сайт, вроде работает</h5>
+                <p class="card-text">После открытия bootstrap все стало проще</p>
+                <p><small class="text-danger">P.s сейчас ты на нем</small></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Создан 21.05.2020</small>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://avatars.mds.yandex.net/get-pdb/750514/aa635f96-f486-4eea-9545-1de9a9aac6ba/orig" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Тут пока ничего нет.</h5>
+                <p class="card-text">Но скоро будет.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Создан ...</small>
+            </div>
+        </div>
+    </div>
+</div>
+<!--id dosug-->
+<div class="collapse" id="dosug">
+    <div class="container-fluid">
+        <div class="d-flex p-2 bd-highlight">
+            <div class="menu d-flex align-items-center flex-column mb-3 col-12">
+                <div class="display-2">Займись вечером</div>
+                <img class="img" src="https://media1.giphy.com/media/eKTgd1GCiEAZDlTMku/source.gif" width="250px" height="300px">
+                <span class="span display-4 text-center">Ну давай, давай жми уже!</span>
+                <input class="button btn btn-primary btn-lg btn-block" type="button" value="Я займусь" style="width: 250px; margin-top: 15px">
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!--Изучаю-->
+<div class="container-fluid">
+    <div class="text-center">
+    <p class="display-3">Обучение</p>
+    </div>
+    <div class="d-flex p-2 bd-highlight text-center justify-content-around">
+        <div class="">
+            <i class="fab fa-html5"></i>
+                <h3> HTML ACADEMY </h3>
+                <p>Пара сотня глав.</p>
+        </div>
+        <div class="">
+            <i class="fas fa-bold"></i>
+            <h3> ИЗУЧЕНИЕ BOOTSTRAP </h3>
+            <p>Видео, много видео!</p>
+        </div>
+        <div class="">
+            <i class="fas fa-code"></i>
+            <h3> ПРАКТИКА </h3>
+            <p>Много практики</p>
+        </div>
+    </div>
+</div>
+<hr>
+<!--Подвал-->
+<div class="card-footer">
+        <div class="card text-center ">
+            <div class="card-body">
+                <h5 class="card-title display-2">Пиши, звони.</h5>
+                <p class="card-text display-4">Помогу чем смогу.</p>
+                <button type="button" class="btn btn-outline-info rounded-pill btn-lg" data-toggle="modal" data-target="#Modal">
+                    <span>Форма связи</span>
+                </button>
+            </div>
+        </div>
+    </div>
+<!--Форма связи-->
+<div class="modal fade"
+     id="Modal" tabindex="-1"
+     role="dialog"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Форма</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Пока я не научился делать форму обратной связи, но скоро точно научусь!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-success" data-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn  btn-outline-info"><span>Ок, жду</span></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Скрипты-->
+<script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
